@@ -1,5 +1,5 @@
 PImage[] myGif;
-int totalFrames = 13;
+int totalFrames = 44;
  
 /* File name pattern for your image sequence
  my files look like this:
