@@ -7,7 +7,7 @@ String[] aboutl1 = {"block0.png","block27.png"};
 String[] aboutl2 = {"block1.png","block28.png"};
 String[] aboutl3 = {"block2.png","block29.png"};
 String[] aboutl4 = {"block3.png","block30.png"};
-String[] aboutl5 = {"block4.png","block31.png"};
+String[] aboutl5 = {"block31.png"};
 
 //OCEAN
 String[] oceanl1 = {"block4.png","block13.png"};
