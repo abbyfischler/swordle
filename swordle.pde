@@ -1,5 +1,12 @@
 PImage[] myGif;
 int totalFrames = 44;
+
+
+String[] about = {"block0.png"};
+String[] ocean = {"Volvo", "BMW", "Ford", "Mazda"};
+String[] salty = {"Volvo", "BMW", "Ford", "Mazda"};
+String[] sassy = {"Volvo", "BMW", "Ford", "Mazda"};
+String[] ivory = {"Volvo", "BMW", "Ford", "Mazda"};
  
 /* File name pattern for your image sequence
  my files look like this:
