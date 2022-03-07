@@ -2,11 +2,13 @@ PImage[] myGif;
 int totalFrames = 44;
 
 
-String[] about = {"block0.png"};
-String[] ocean = {"Volvo", "BMW", "Ford", "Mazda"};
-String[] salty = {"Volvo", "BMW", "Ford", "Mazda"};
-String[] sassy = {"Volvo", "BMW", "Ford", "Mazda"};
-String[] ivory = {"Volvo", "BMW", "Ford", "Mazda"};
+
+
+String[] l1 = {"block0.png"};
+String[] l2 = {"block0.png"};
+String[] l3 = {"block0.png"};
+String[] l4 = {"block0.png"};
+String[] l5 = {"block0.png"};
  
 
 /* File name pattern for your image sequence
