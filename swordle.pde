@@ -1,7 +1,6 @@
 PImage[] myGif;
 int totalFrames = 44;
 
-
 //ABOUT
 String[] aboutl1 = {"block0.png","block27.png"};
 String[] aboutl2 = {"block1.png","block28.png"};
