@@ -5,7 +5,7 @@ int totalFrames = 44;
 
 
 String[] l1 = {"block0.png", "block4.png", "block8.png", "blok13.png", "block18.png", "block23.png","block27.png", "block32.png","block35.png","block40.png"};
-String[] l2 = {"block0.png"};
+String[] l2 = {"block1.png", "block5.png", "block9.png", "block14.png", "block19.png", "block24.png", "block28.png", "block33.png", "block36.png", "block40.png",};
 String[] l3 = {"block0.png"};
 String[] l4 = {"block0.png"};
 String[] l5 = {"block0.png"};
