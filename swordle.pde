@@ -22,7 +22,6 @@ String[] saltyl2 = {"block24.png", "block33.png", "block41.png"};
 String[] saltyl3 = {"block25.png", "block34.png", "block42.png"};
 String[] saltyl4 = {"block26.png", "block43.png"};
 
-
 //IVORY
 String[] ivoryl1 = {"block35.png"};
 String[] ivoryl2 = {"block36.png"};
@@ -30,6 +29,12 @@ String[] ivoryl3 = {"block37.png"};
 String[] ivoryl4 = {"block38.png"};
 String[] ivoryl5 = {"block39.png"};
 
+//SASSY
+String[] sassyl1 = {"block8.png","block18.png"};
+String[] sassyl2 = {"block9.png","block19.png"};
+String[] sassyl3 = {"block10.png","block20.png"};
+String[] sassyl4 = {"block11.png","block21.png"};
+String[] sassyl5 = {"block12.png","block22.png"};
 
 
 /* File name pattern for your image sequence
