@@ -8,6 +8,7 @@ String[] salty = {"Volvo", "BMW", "Ford", "Mazda"};
 String[] sassy = {"Volvo", "BMW", "Ford", "Mazda"};
 String[] ivory = {"Volvo", "BMW", "Ford", "Mazda"};
  
+
 /* File name pattern for your image sequence
  my files look like this:
  frame_00_delay-0.1s.png
