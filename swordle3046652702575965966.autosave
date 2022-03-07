@@ -2,18 +2,17 @@ PImage[] myGif;
 int totalFrames = 44;
 
 
-//ABOUT
-String[] aboutl1 = {"block0.png","block27.png"};
-String[] aboutl2 = {"block1.png","block28.png"};
-String[] aboutl3 = {"block2.png","block29.png"};
-String[] aboutl4 = {"block3.png","block30.png"};
-String[] aboutl5 = {"block4.png","block31.png"};
 
-//SALTY
+
+String[] aboutl1 = {"block0.png", "block4.png", "block8.png", "blok13.png", "block18.png", "block23.png","block27.png", "block32.png","block35.png","block40.png"};
+String[] l2 = {"block1.png", "block5.png", "block9.png", "block14.png", "block19.png", "block24.png", "block28.png", "block33.png", "block36.png", "block40.png",};
+String[] l3 = {"block2.png", "block6.png","block10.png","block15.png","block20.png","block25.png","block29.png","block34.png","block37.png","block42.png"};
+String[] l4 = {"block0.png"};
+String[] l5 = {"block0.png"};
+
 String[] saltyl1 = {"block23.png", "block32.png", "block40.png"};
-String[] saltyl2 = {"block24.png", "block33.png", "block41.png"};
-String[] saltyl3 = {"block25.png", "block34.png", "block42.png"};
-String[] saltyl4 = {"block26.png", "block43.png"};
+
+ 
 
 /* File name pattern for your image sequence
  my files look like this:
