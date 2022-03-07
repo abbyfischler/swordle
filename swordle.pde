@@ -1,6 +1,8 @@
 PImage[] myGif;
 int totalFrames = 44;
  
+ 
+ //this is abigail's comment
 /* File name pattern for your image sequence
  my files look like this:
  frame_00_delay-0.1s.png
