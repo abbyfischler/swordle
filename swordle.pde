@@ -35,16 +35,19 @@ void setup() {
     myGif[frameNumber].resize(0, 700);
   }
   println("..loaded ", totalFrames, " files");
-//ABOUT
-PImage[] abouts1 = {loadImage("block0.png"),loadImage("block1.png"), loadImage("block2.png"),loadImage("block3.png")};
-PImage[] abouts2 = {loadImage("block27.png"),loadImage("block28.png"), loadImage("block29.png"),loadImage("block30.png"),loadImage("block31.png")};
+  //ABOUT
+  PImage[] abouts1 = {loadImage("block0.png"), loadImage("block1.png"), loadImage("block2.png"), loadImage("block3.png")};
+  PImage[] abouts2 = {loadImage("block27.png"), loadImage("block28.png"), loadImage("block29.png"), loadImage("block30.png"), loadImage("block31.png")};
 
 
+  //IVORY
+  PImage[] ivorys1 = {loadImage("block35.png"), loadImage("block36.png"), loadImage("block37.png"), loadImage("block38.png"), loadImage("block39.png")};
+
+  //
   ArrayList<PImage[]> words = new ArrayList<PImage[]>();
   words.add(abouts1);
-
-
-  
+  words.add(abouts2);
+  words.add(ivorys1);
 }
 
 
