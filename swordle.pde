@@ -35,8 +35,9 @@ void setup() {
     myGif[frameNumber].resize(0, 700);
   }
   println("..loaded ", totalFrames, " files");
-
+//ABOUT
 PImage[] abouts1 = {loadImage("block0.png"),loadImage("block1.png"), loadImage("block2.png"),loadImage("block3.png")};
+PImage[] abouts2 = {loadImage("block27.png"),loadImage("block28.png"), loadImage("block29.png"),loadImage("block30.png"),loadImage("block31.png")};
 
 
   ArrayList<PImage[]> words = new ArrayList<PImage[]>();
