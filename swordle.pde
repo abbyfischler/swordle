@@ -36,11 +36,14 @@ void setup() {
   }
   println("..loaded ", totalFrames, " files");
   //ABOUT
+  //aray list for reach word
   PImage[] abouts1 = {loadImage("block0.png"), loadImage("block1.png"), loadImage("block2.png"), loadImage("block3.png")};
   PImage[] abouts2 = {loadImage("block27.png"), loadImage("block28.png"), loadImage("block29.png"), loadImage("block30.png"), loadImage("block31.png")};
 
 
+
   //IVORY
+
   PImage[] ivorys1 = {loadImage("block35.png"), loadImage("block36.png"), loadImage("block37.png"), loadImage("block38.png"), loadImage("block39.png")};
 
   //OCEAN
@@ -70,18 +73,9 @@ void setup() {
   words.add(sassys1);
   words.add(sassys2);
 
-//randomly pick a word array from the list of arrays
-
-  for (int i = 0; i < words.size(); i++)
-  {
-    // generating the index using Math.random()
-    int word = (int)(Math.random() * words.size());
-
-    System.out.println("Random Element is :"
-      + words.get(word));
-  }
-  
-  
+  //randomly pick a word array from the list of arrays
+int i = int(random(1.0) + words.size());
+PImage[] currentScence = words.get(i);
 }
 
 
