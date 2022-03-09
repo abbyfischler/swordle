@@ -18,6 +18,15 @@ String[] sassys1 = {"block8.png","block9.png","block10.png","block11.png","block
 String[] sassys2 = {"block18.png","block19.png","block20.png","block21.png","block22.png"};
 
 
+//IVORY
+String[] ivory1 = {"block35.png", "block36.png", "block37.png", "block38.png", "block39.png"};
+
+
+//SALTY
+String[] salty1 = {"block23.png", "block24.png", "block25.png", "block26.png"};
+String[] salty2 = {"block32.png", "block33.png", "block34.png"};
+String[] salty3 = {"block40.png", "block41.png", "block42.png", "block43.png"};
+
 
 /* File name pattern for your image sequence
  my files look like this:
