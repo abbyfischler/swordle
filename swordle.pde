@@ -2,38 +2,11 @@ PImage[] myGif;
 int totalFrames = 44;
 
 //ABOUT
-String[] aboutl1 = {"block0.png","block27.png"};
-String[] aboutl2 = {"block1.png","block28.png"};
-String[] aboutl3 = {"block2.png","block29.png"};
-String[] aboutl4 = {"block3.png","block30.png"};
-String[] aboutl5 = {"block31.png"};
+//senario one; group by screenshot by word have an array list go through each senario and pick one randomly each time
+//from one to five
+String[] abouts1 = {"block0.png","block1.png","block2.png","block3.png"};
+String[] abouts2 = {"block27.png","block28.png","block29.png","block30.png","block31.png"};
 
-//OCEAN
-String[] oceanl1 = {"block4.png","block13.png"};
-String[] oceanl2 = {"block5.png","block14.png"};
-String[] oceanl3 = {"block6.png","block15.png"};
-String[] oceanl4 = {"block7.png","block16.png"};
-String[] oceanl5 = {"block17.png"};
-
-//SALTY
-String[] saltyl1 = {"block23.png", "block32.png", "block40.png"};
-String[] saltyl2 = {"block24.png", "block33.png", "block41.png"};
-String[] saltyl3 = {"block25.png", "block34.png", "block42.png"};
-String[] saltyl4 = {"block26.png", "block43.png"};
-
-//IVORY
-String[] ivoryl1 = {"block35.png"};
-String[] ivoryl2 = {"block36.png"};
-String[] ivoryl3 = {"block37.png"};
-String[] ivoryl4 = {"block38.png"};
-String[] ivoryl5 = {"block39.png"};
-
-//SASSY
-String[] sassyl1 = {"block8.png","block18.png"};
-String[] sassyl2 = {"block9.png","block19.png"};
-String[] sassyl3 = {"block10.png","block20.png"};
-String[] sassyl4 = {"block11.png","block21.png"};
-String[] sassyl5 = {"block12.png","block22.png"};
 
 
 /* File name pattern for your image sequence
