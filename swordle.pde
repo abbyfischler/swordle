@@ -8,6 +8,14 @@ String[] abouts1 = {"block0.png","block1.png","block2.png","block3.png"};
 String[] abouts2 = {"block27.png","block28.png","block29.png","block30.png","block31.png"};
 
 
+//OCEAN
+String[] oceans1 = {"block4.png","block5.png","block6.png","block7.png"};
+String[] oceans1 = {"block13.png","block14.png","block15.png","block16.png","block17.png"};
+
+
+
+
+
 
 /* File name pattern for your image sequence
  my files look like this:
