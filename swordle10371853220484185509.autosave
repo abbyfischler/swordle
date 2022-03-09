@@ -4,18 +4,20 @@ int totalFrames = 44;
 //ABOUT
 //senario one; group by screenshot by word have an array list go through each senario and pick one randomly each time
 //from one to five
-PImage[] abouts1 = {"block0.png", "block1.png", "block2.png", "block3.png"};
-PImage[] abouts2 = {"block27.png", "block28.png", "block29.png", "block30.png", "block31.png"};
+String[] abouts1 = {"block0.png", "block1.png", "block2.png", "block3.png"};
+String[] abouts2 = {"block27.png", "block28.png", "block29.png", "block30.png", "block31.png"};
 
 
 //OCEAN
-PImage[] oceans1 = {"block4.png", "block5.png", "block6.png", "block7.png"};
-PImage[] oceans2 = {"block13.png", "block14.png", "block15.png", "block16.png", "block17.png"};
-
+String[] oceans1 = {"block4.png", "block5.png", "block6.png", "block7.png"};
+String[] oceans1 = {"block13.png", "block14.png", "block15.png", "block16.png", "block17.png"};
 
 //SASSY
-PImage[] sassys1 = {"block8.png", "block9.png", "block10.png", "block11.png", "block12.png"};
-PImage[] sassys2 = {"block18.png", "block19.png", "block20.png", "block21.png", "block22.png"};
+String[] sassys1 = {"block4.png", "block5.png", "block6.png", "block7.png"};
+String[] sassys2 = {"block13.png", "block14.png", "block15.png", "block16.png", "block17.png"};
+
+
+
 
 
 
@@ -56,14 +58,6 @@ void setup() {
     myGif[frameNumber].resize(0, 700);
   }
   println("..loaded ", totalFrames, " files");
-
-
-  ArrayList<PImage[]> words = new ArrayList<PImage[]>();
-  words.add(abouts1);
-  words.add(abouts2);
-  words.add(oceans1);
-
-  
 }
 
 
