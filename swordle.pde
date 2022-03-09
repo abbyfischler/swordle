@@ -43,11 +43,21 @@ void setup() {
   //IVORY
   PImage[] ivorys1 = {loadImage("block35.png"), loadImage("block36.png"), loadImage("block37.png"), loadImage("block38.png"), loadImage("block39.png")};
 
-  //
+  //SALTY
+   PImage[] saltys1 = {loadImage("block23.png"), loadImage("block24.png"), loadImage("block25.png"), loadImage("block26.png")};
+   PImage[] saltys2 = {loadImage("block32.png"), loadImage("block33.png"), loadImage("block34.png")};
+   PImage[] saltys3 = {loadImage("block40.png"), loadImage("block41.png"), loadImage("block42.png"),loadImage("block43.png")};
+
+  
+  
+  
   ArrayList<PImage[]> words = new ArrayList<PImage[]>();
   words.add(abouts1);
   words.add(abouts2);
   words.add(ivorys1);
+  words.add(saltys1);
+    words.add(saltys2);
+      words.add(saltys3);
 }
 
 
