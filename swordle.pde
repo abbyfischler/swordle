@@ -69,6 +69,19 @@ void setup() {
   words.add(oceans2);
   words.add(sassys1);
   words.add(sassys2);
+
+//randomly pick a word array from the list of arrays
+
+  for (int i = 0; i < words.size(); i++)
+  {
+    // generating the index using Math.random()
+    int word = (int)(Math.random() * words.size());
+
+    System.out.println("Random Element is :"
+      + words.get(word));
+  }
+  
+  
 }
 
 
