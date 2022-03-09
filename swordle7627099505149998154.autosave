@@ -36,13 +36,11 @@ void setup() {
   }
   println("..loaded ", totalFrames, " files");
   //ABOUT
-  //aray list for reach word
-  
   PImage[] abouts1 = {loadImage("block0.png"), loadImage("block1.png"), loadImage("block2.png"), loadImage("block3.png")};
   PImage[] abouts2 = {loadImage("block27.png"), loadImage("block28.png"), loadImage("block29.png"), loadImage("block30.png"), loadImage("block31.png")};
 
-  //IVORY
 
+  //IVORY
   PImage[] ivorys1 = {loadImage("block35.png"), loadImage("block36.png"), loadImage("block37.png"), loadImage("block38.png"), loadImage("block39.png")};
 
   //OCEAN
@@ -59,7 +57,6 @@ void setup() {
   PImage[] sassys2 = {loadImage("block18.png"), loadImage("block19.png"), loadImage("block20.png"), loadImage("block21.png"), loadImage("block22.png")};
 
 
-
   ArrayList<PImage[]> words = new ArrayList<PImage[]>();
   words.add(abouts1);
   words.add(abouts2);
@@ -71,14 +68,6 @@ void setup() {
   words.add(oceans2);
   words.add(sassys1);
   words.add(sassys2);
-
-  //randomly pick a word array from the list of arrays
-int i = int(random(1.0) * words.size());
-PImage[] currentScence = words.get(i);
-
-
-
-
 }
 
 
