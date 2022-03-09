@@ -10,7 +10,7 @@ String[] abouts2 = {"block27.png","block28.png","block29.png","block30.png","blo
 
 //OCEAN
 String[] oceans1 = {"block4.png","block5.png","block6.png","block7.png"};
-String[] oceans1 = {"block13.png","block14.png","block15.png","block16.png","block17.png"};
+String[] oceans2 = {"block13.png","block14.png","block15.png","block16.png","block17.png"};
 
 
 
