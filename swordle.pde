@@ -13,7 +13,9 @@ String[] oceans1 = {"block4.png","block5.png","block6.png","block7.png"};
 String[] oceans2 = {"block13.png","block14.png","block15.png","block16.png","block17.png"};
 
 
-
+//SASSY
+String[] sassys1 = {"block8.png","block9.png","block10.png","block11.png","block12.png"};
+String[] sassys2 = {"block18.png","block19.png","block20.png","block21.png","block22.png"};
 
 
 
