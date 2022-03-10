@@ -37,11 +37,9 @@ void setup() {
   println("..loaded ", totalFrames, " files");
   //ABOUT
   //aray list for reach word
-  
+
   PImage[] abouts1 = {loadImage("block0.png"), loadImage("block1.png"), loadImage("block2.png"), loadImage("block3.png")};
   PImage[] abouts2 = {loadImage("block27.png"), loadImage("block28.png"), loadImage("block29.png"), loadImage("block30.png"), loadImage("block31.png")};
-
-
 
   //IVORY
 
@@ -75,12 +73,8 @@ void setup() {
   words.add(sassys2);
 
   //randomly pick a word array from the list of arrays
-int i = int(random(1.0) * words.size());
-PImage[] currentScence = words.get(i);
-
-
-
-
+  int i = int(random(1.0) * words.size());
+  PImage[] currentScence = words.get(i);
 }
 
 
