@@ -51,7 +51,7 @@ PImage[] currentPuzzle;
 void setup() {
   //int newW = int (1773*0.75);
   //int newH =  int(1704*0.75);
-  size(1330, 1278);
+  size(700, 750);
 
   //creates an EMPTY array that will hold the frames once we load them
 //  myGif = new PImage[totalFrames];
