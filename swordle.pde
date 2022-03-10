@@ -16,6 +16,8 @@ String filePattern = "block%d.png";
 // subtract 'speed' from this value to get the
 int SPEED = 11;
 int speed = 1;
+int currentFrame = 0;
+PImage[] currentPuzzle;
 
 void setup() {
   //int newW = int (1773*0.75);
@@ -75,7 +77,7 @@ void setup() {
   //randomly pick a word array from the list of arrays
   int i = int(random(1.0) * words.size());
   PImage[] currentPuzzle = words.get(i);
-  currentFrame = 0;
+  
 }
 
 
@@ -101,7 +103,7 @@ void draw() {
     currentFrame++;
   } else {
     //new puzzle
-    currentPuzzle = sassys2;
+    currentPuzzle = 0;
     currentFrame =0;
   }
 }
