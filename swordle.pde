@@ -18,7 +18,8 @@ String filePattern = "block%d.png";
 //aray list for reach word
 
 PImage[] abouts1;
-PImage[] abouts2;;
+PImage[] abouts2;
+;
 
 //IVORY
 
@@ -37,13 +38,14 @@ PImage[] saltys3;
 PImage[] sassys1;
 PImage[] sassys2;
 
+ArrayList<PImage[]> words;
 
 
 // subtract 'speed' from this value to get the
 int SPEED = 11;
 int speed = 1;
 int currentFrame = 0;
-PImage[] currentPuzzle = abouts2;
+PImage[] currentPuzzle;
 
 
 void setup() {
@@ -62,32 +64,35 @@ void setup() {
     // now load the image into the right position in the array
     myGif[frameNumber] = loadImage(fn);
     myGif[frameNumber].resize(0, 700);
-    
   }
   println("..loaded ", totalFrames, " files");
 
-PImage[] abouts1 = {loadImage("block0.png"), loadImage("block1.png"), loadImage("block2.png"), loadImage("block3.png")};
-PImage[] abouts2 = {loadImage("block27.png"), loadImage("block28.png"), loadImage("block29.png"), loadImage("block30.png"), loadImage("block31.png")};
-
-//IVORY
-
-PImage[] ivorys1 = {loadImage("block35.png"), loadImage("block36.png"), loadImage("block37.png"), loadImage("block38.png"), loadImage("block39.png")};
-
-//OCEAN
-PImage[] oceans1 = {loadImage("block4.png"), loadImage("block5.png"), loadImage("block6.png"), loadImage("block7.png")};
-PImage[] oceans2 = {loadImage("block13.png"), loadImage("block14.png"), loadImage("block15.png"), loadImage("block16.png"), loadImage("block17.png")};
-
-//SALTY
-PImage[] saltys1 = {loadImage("block23.png"), loadImage("block24.png"), loadImage("block25.png"), loadImage("block26.png")};
-PImage[] saltys2 = {loadImage("block32.png"), loadImage("block33.png"), loadImage("block34.png")};
-PImage[] saltys3 = {loadImage("block40.png"), loadImage("block41.png"), loadImage("block42.png"), loadImage("block43.png")};
-
-//SASSY
-PImage[] sassys1 = {loadImage("block8.png"), loadImage("block9.png"), loadImage("block10.png"), loadImage("block11.png"), loadImage("block12.png")};
-PImage[] sassys2 = {loadImage("block18.png"), loadImage("block19.png"), loadImage("block20.png"), loadImage("block21.png"), loadImage("block22.png")};
+initalizePuzzle();
 
 
-  ArrayList<PImage[]> words = new ArrayList<PImage[]>();
+abouts1 = {loadImage("block0.png"), loadImage("block1.png"), loadImage("block2.png"), loadImage("block3.png")};
+  abouts2 = {loadImage("block27.png"), loadImage("block28.png"), loadImage("block29.png"), loadImage("block30.png"), loadImage("block31.png")};
+
+  //IVORY
+
+  ivorys1 = {loadImage("block35.png"), loadImage("block36.png"), loadImage("block37.png"), loadImage("block38.png"), loadImage("block39.png")};
+
+  //OCEAN
+  oceans1 = {loadImage("block4.png"), loadImage("block5.png"), loadImage("block6.png"), loadImage("block7.png")};
+  oceans2 = {loadImage("block13.png"), loadImage("block14.png"), loadImage("block15.png"), loadImage("block16.png"), loadImage("block17.png")};
+
+  //SALTY
+  saltys1 = {loadImage("block23.png"), loadImage("block24.png"), loadImage("block25.png"), loadImage("block26.png")};
+  saltys2 = {loadImage("block32.png"), loadImage("block33.png"), loadImage("block34.png")};
+  saltys3 = {loadImage("block40.png"), loadImage("block41.png"), loadImage("block42.png"), loadImage("block43.png")};
+
+  //SASSY
+  sassys1 = {loadImage("block8.png"), loadImage("block9.png"), loadImage("block10.png"), loadImage("block11.png"), loadImage("block12.png")};
+  sassys2 = {loadImage("block18.png"), loadImage("block19.png"), loadImage("block20.png"), loadImage("block21.png"), loadImage("block22.png")};
+  currentPuzzle = sassys2;
+
+
+ words = new ArrayList<PImage[]>();
   words.add(abouts1);
   words.add(abouts2);
   words.add(ivorys1);
@@ -115,7 +120,7 @@ void draw() {
 
   // frameCount is a Processing variable that counts the total number of frames
   // that have been drawn
-/**
+  /**
    if ( myGif[(frameCount / speed) % totalFrames] != null ) {
    image( myGif[ (frameCount / speed) % totalFrames], 0, 0);
    } else {
