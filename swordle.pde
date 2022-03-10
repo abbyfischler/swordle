@@ -74,7 +74,8 @@ void setup() {
 
   //randomly pick a word array from the list of arrays
   int i = int(random(1.0) * words.size());
-  PImage[] currentScence = words.get(i);
+  PImage[] currentPuzzle = words.get(i);
+  currentFrame = 0;
 }
 
 
@@ -88,10 +89,19 @@ void draw() {
 
   // frameCount is a Processing variable that counts the total number of frames
   // that have been drawn
-
+/**
   if ( myGif[(frameCount / speed) % totalFrames] != null ) {
-    image( myGif[ (frameCount / speed) % totalFrames], 0, 0 );
+    image( myGif[ (frameCount / speed) % totalFrames], 0, 0);
   } else {
     background(255, 0, 0);
+  }
+**/
+  if (currentFrame < currentPuzzle.length) {
+    image(currentPuzzle[currentFrame], 0, 0);
+    currentFrame++;
+  } else {
+    //new puzzle
+    currentPuzzle = sassys2;
+    currentFrame =0;
   }
 }
