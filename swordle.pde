@@ -112,7 +112,7 @@ abouts1 = {loadImage("block0.png"), loadImage("block1.png"), loadImage("block2.p
   currentPuzzle = words.get(i);
 
   currentFrame = 0;
-  frameRate(2);
+  frameRate(1.5);
 }
 
 
